@@ -1,0 +1,12 @@
+# Companion code for the "Agentic Design Patterns" whitepaper.
+#
+# Loose compatible-release pins (`~=`) are intentional. This repo holds
+# illustrative snippets read alongside the paper, not a deployable application,
+# and readers will install it against whatever Python and SDK versions they
+# already use. Exact pins (`==`) would freeze readers to releases that may not
+# even resolve months or years after publication. If you are vendoring this
+# code into a real project, pin it there — don't rely on these ranges.
+
+anthropic[bedrock]~=0.40   # Anthropic SDK with the Amazon Bedrock client (AnthropicBedrock)
+boto3~=1.35                # AWS SDK — credential resolution / Bedrock runtime
+pydantic~=2.9              # used by the Validation-Retry Loop (06)

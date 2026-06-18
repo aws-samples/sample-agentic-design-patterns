@@ -1,0 +1,6 @@
+{
+  "error": true,
+  "errorCategory": "validation",
+  "isRetryable": false,
+  "message": "Account 'ACC-INVALID' does not exist. Ask the customer to verify their account number."
+}
