@@ -26,6 +26,6 @@ Validate the model's output in application code against a model richer than the 
 
 ## Related patterns
 
-- **Structured Error Classification (Ch. 7)**: supplies the `isRetryable` vocabulary to distinguish retry-able shape errors from unretry-able domain mismatches, shared with tool-error handling.
-- **Confidence-Based Routing (Ch. 8)**: routes low-confidence-but-well-formed output to a reviewer; catches the well-formed-but-wrong cases this loop cannot.
-- **Review Pass (Ch. 9)**: addresses the semantic errors (a claim that satisfies every rule but is subtly wrong) that validation alone does not catch.
+- **[Structured Error Classification](../05-structured-error-classification/)**: supplies the `isRetryable` vocabulary to distinguish retry-able shape errors from unretry-able domain mismatches, shared with tool-error handling.
+- **[Confidence-Based Routing](../06-confidence-based-routing/)**: routes low-confidence-but-well-formed output to a reviewer; catches the well-formed-but-wrong cases this loop cannot.
+- **[Review Pass](../07-review-pass/)**: addresses the semantic errors (a claim that satisfies every rule but is subtly wrong) that validation alone does not catch.

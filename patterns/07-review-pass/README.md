@@ -27,6 +27,6 @@ After the primary pass produces a draft, run a second pass that reviews that dra
 ## Related patterns
 
 - **Agentic Loop**: the primary pass that produces the draft the review pass evaluates.
-- **Coordinator-Subagent Hierarchy (Ch. 10)**: the Critic-Agent is a preview of this, a subagent with empty tools invoked as a review step.
+- **[Coordinator-Subagent Hierarchy](../08-coordinator-subagent-hierarchy/)**: the Critic-Agent is a preview of this, a subagent with empty tools invoked as a review step.
 - **LLM-as-judge evaluation**: the aggregate form of Self-Evaluation (the same rubric across a test set rather than a single output).
 - **LLM-as-a-jury**: the next step along the reviewer-independence axis (heterogeneous models voting), where Review Pass ends and the jury literature begins.

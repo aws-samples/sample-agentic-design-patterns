@@ -30,5 +30,5 @@ Read in this order:
 
 ## Related patterns
 
-- **Tool Gate (Ch. 5)**: enforces *ordinal* rules ("tool A cannot run before tool B succeeds") that need state across calls. It sits at the same seam and composes: Gate checks first, Override checks second, execution runs third.
-- **Structured Error Classification (Ch. 7)**: the convention for the structured shape (flag, message, category) the override returns; adopt it before you have more than one kind of intercept result.
+- **[Tool Gate](../03-tool-gate/)**: enforces *ordinal* rules ("tool A cannot run before tool B succeeds") that need state across calls. It sits at the same seam and composes: Gate checks first, Override checks second, execution runs third.
+- **[Structured Error Classification](../05-structured-error-classification/)**: the convention for the structured shape (flag, message, category) the override returns; adopt it before you have more than one kind of intercept result.

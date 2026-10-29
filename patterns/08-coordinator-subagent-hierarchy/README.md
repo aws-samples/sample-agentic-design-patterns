@@ -28,4 +28,4 @@ Structure the system as a coordinator agent that decomposes the task into sub-ta
 
 ## Related patterns
 
-This pattern composes the smaller patterns named in the prose: Domain Partitioning (A.7), Parallel Execution, Error Propagation with Partial Results, Conflict Detection, and Lost-in-the-Middle Mitigation (A.11). It builds on the Agentic Loop (Ch. 3) as the mental model of what the framework runs, and the Review Pass (Ch. 9) Critic-Agent variant slots in naturally as an extra reviewing subagent before delivery.
+This pattern composes several smaller techniques: domain partitioning, parallel execution, error propagation with partial results, conflict detection, and lost-in-the-middle mitigation. It builds on the [Agentic Loop](../01-agentic-loop/) as the mental model of what the framework runs, and the [Review Pass](../07-review-pass/) Critic-Agent variant slots in naturally as an extra reviewing subagent before delivery.

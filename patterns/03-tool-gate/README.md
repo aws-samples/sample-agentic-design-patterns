@@ -26,5 +26,5 @@ Track which tools have succeeded so far in the conversation. Before any tool run
 
 ## Related patterns
 
-- **Deterministic Override (Ch. 4)**: enforces conditional rules on a single call's content; the gate enforces ordinal rules across calls. They compose (eligibility *ran* is a gate concern; eligibility *result* is an override concern).
-- **Structured Error Classification (Ch. 7)**: formalizes the structured error shape (`errorCategory`, `isRetryable`) that the gate borrows; the gate's error taxonomy should match your tools'.
+- **[Deterministic Override](../02-deterministic-override/)**: enforces conditional rules on a single call's content; the gate enforces ordinal rules across calls. They compose (eligibility *ran* is a gate concern; eligibility *result* is an override concern).
+- **[Structured Error Classification](../05-structured-error-classification/)**: formalizes the structured error shape (`errorCategory`, `isRetryable`) that the gate borrows; the gate's error taxonomy should match your tools'.

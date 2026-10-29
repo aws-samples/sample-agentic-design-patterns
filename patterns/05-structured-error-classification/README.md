@@ -36,4 +36,4 @@ Read in this order:
 
 ## Related patterns
 
-The same result shape is reused across the language: Deterministic Override (Ch. 4) emits `escalated: true` using these conventions, Tool Gate (Ch. 5) returns `errorCategory: "prerequisite"`, Validation-Retry Loop (Ch. 6) uses the `isRetryable` concept, Coordinator-Subagent Hierarchy (Ch. 10) propagates subagent failures in this shape, and Confidence-Based Routing (Ch. 8) applies the same shape to success metadata like `confidence` and `requires_review`.
+The same result shape is reused across the language: [Deterministic Override](../02-deterministic-override/) emits `escalated: true` using these conventions, [Tool Gate](../03-tool-gate/) returns `errorCategory: "prerequisite"`, [Validation-Retry Loop](../04-validation-retry-loop/) uses the `isRetryable` concept, [Coordinator-Subagent Hierarchy](../08-coordinator-subagent-hierarchy/) propagates subagent failures in this shape, and [Confidence-Based Routing](../06-confidence-based-routing/) applies the same shape to success metadata like `confidence` and `requires_review`.

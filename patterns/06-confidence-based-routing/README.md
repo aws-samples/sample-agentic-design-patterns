@@ -27,5 +27,5 @@ Add a confidence field to the output schema as a small set of named categories (
 ## Related patterns
 
 - **Validation-Retry Loop**: the upstream pattern that guarantees outputs are schema- and rule-conformant before they reach this routing layer.
-- **Review Pass (Ch. 9)**: the natural follow-on. Its critic-agent variant handles the low-confidence review path, and either variant guards the high-confidence-but-wrong outputs this layer cannot catch.
-- **Coordinator-Subagent Hierarchy (Ch. 10)**: composes forward; a coordinator synthesising findings should respect confidence, annotating low-confidence findings as contested rather than presenting them as well-supported.
+- **[Review Pass](../07-review-pass/)**: the natural follow-on. Its critic-agent variant handles the low-confidence review path, and either variant guards the high-confidence-but-wrong outputs this layer cannot catch.
+- **[Coordinator-Subagent Hierarchy](../08-coordinator-subagent-hierarchy/)**: composes forward; a coordinator synthesising findings should respect confidence, annotating low-confidence findings as contested rather than presenting them as well-supported.
