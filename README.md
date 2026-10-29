@@ -1,7 +1,7 @@
 # Agentic Design Patterns: Companion Code
 
 This repository is the companion code for the AWS Prescriptive Guidance whitepaper
-**_Agentic Design Patterns_** ([PDF](agentic-design-patterns-prescriptive-guidance.pdf)).
+**_Agentic Design Patterns_**.
 Every snippet here is extracted **verbatim** from the paper. It is the same code that
 appears inline in each chapter, lifted into runnable files and organized one directory
 per pattern.
